@@ -1,0 +1,439 @@
+/*!
+Theme Name: Brand
+Theme URI: washington.edu
+Description: A 2014 Child Theme
+Author: UW Web Team
+Author URI: http://uw.edu/
+Template: uw-2014
+Version: 1.1
+*/
+.dropdown-arrow-inverse {
+  border-bottom-color: #4b2e83 !important;
+  border-top-color: #4b2e83 !important;
+}
+.site-brand.home .uw-hero-image {
+  height: 595px;
+  padding: 60px 0 0 0;
+}
+.site-brand.home .uw-hero-image h1 {
+  font-family: "Encode Sans Compressed", sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  font-size: 95px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.site-brand.home .uw-hero-image h1 a {
+  color: white;
+}
+.site-brand.home .uw-hero-image p {
+  color: white;
+  line-height: 1.55;
+  -webkit-font-smoothing: auto;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+.site-brand.home .uw-hero-image p a {
+  text-shadow: none;
+}
+.site-brand.home .uw-hero-image .udub-slant span {
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.site-brand.home .uw-site-title {
+  display: none;
+}
+.site-brand.home .uw-content.expanding-inner {
+  margin-top: -50px;
+  width: 100%;
+  float: left;
+  background-color: #e8e3d3;
+  margin-bottom: 15px;
+}
+.site-brand.home #uw-container div#uw-container-inner {
+  background-color: #e8e3d3;
+}
+.site-brand.home #uw-container div#uw-container-inner div.uw-body-wrap {
+  background-color: #e8e3d3;
+}
+.site-brand.home .uw-body-copy h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #4b2e83;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -73px;
+  z-index: 1;
+}
+.site-brand.home .more {
+  text-align: center;
+}
+.site-brand.home .more a.uw-btn.btn-sm {
+  background-color: white;
+  margin: 50px 0 0 -50px;
+}
+.site-brand.home .more a.uw-btn.btn-sm:after {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 41px;
+  height: 45px;
+  top: 21px;
+  right: -44px;
+  background-position: -35px -408px;
+}
+.site-brand .elment {
+  float: left;
+  width: 23.5%;
+  margin: 37px 0.75% -15px 0.75%;
+  text-align: center;
+  height: 280px;
+  background-color: white;
+}
+.site-brand .elment:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+.site-brand .elment a {
+  font-family: "Encode Sans Compressed", sans-serif;
+  color: #4b2e83;
+  display: block;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 1;
+  margin: 20px 0 10px;
+  padding: 100px 40px 35px;
+  background: url('assets/brand/svg/pic.svg') center 29px no-repeat;
+}
+.site-brand .elment a:hover {
+  color: #b7a57a;
+  border-bottom: none;
+}
+.site-brand .elment.element-fonts a {
+  background: url('assets/brand/svg/fonts.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-editorial a {
+  background: url('assets/brand/svg/pencil.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-web a {
+  background: url('assets/brand/svg/template.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-video a {
+  background: url('assets/brand/svg/video.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-uncategorized a {
+  background: url('assets/brand/svg/print.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-colors a {
+  background: url('assets/brand/svg/colors.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-social-media a {
+  background: url('assets/brand/svg/social-media.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-brand-vision a {
+  background: url('assets/brand/svg/brand.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-logos a {
+  background: url('assets/brand/svg/logos.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-messaging-framework a {
+  background: url('assets/brand/svg/messaging.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-downloads-templates a {
+  background: url('assets/brand/svg/downloads.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-graphic-elements a {
+  background: url('assets/brand/svg/graphic.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-advertising-templates a {
+  background: url('assets/brand/svg/advertising.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-business-stationery a {
+  background: url('assets/brand/svg/business.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-email a {
+  background: url('assets/brand/svg/email.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-event-templates a {
+  background: url('assets/brand/svg/event.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-fact-sheets a {
+  background: url('assets/brand/svg/fact.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-help a {
+  background: url('assets/brand/svg/help.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-brand-swag a {
+  background: url('assets/brand/svg/swag.svg') center 29px no-repeat;
+}
+.site-brand .elment p {
+  line-height: 1.5;
+  margin-top: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+.site-brand .elment.empty:hover:after {
+  content: "Coming soon";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 120px 0 0 0;
+  opacity: .9;
+  font-weight: 900;
+  font-family: "Encode Sans Compressed", sans-serif;
+  font-size: 24px;
+  line-height: 1.3;
+  background-color: #4b2e83;
+  color: #fff;
+}
+.site-brand .search-box {
+  padding: 120px 0;
+  background-color: white;
+  position: relative;
+  border-top: 5px solid #b7a57a;
+}
+.site-brand .search-box:before {
+  content: "";
+  background: url('//www.washington.edu/wp-content/themes/uw-2014/assets/images/stripes-dark-tile.png');
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .4;
+}
+.site-brand .search-box #searchform #s {
+  padding: 30px 0 30px 35px;
+  height: 94px;
+}
+.site-brand .search-box #searchform #searchsubmit {
+  height: 94px;
+  width: 95px;
+  -webkit-background-size: 30px;
+  -moz-background-size: 30px;
+  -o-background-size: 30px;
+  background-size: 30px;
+}
+.site-brand #brand-results {
+  margin-top: 20px;
+}
+.site-brand #brand-results a {
+  display: block;
+  padding: 11px 0 11px 30px;
+  color: #484848;
+  border-bottom: 1px solid #ddd;
+  font-family: "Encode Sans Compressed", sans-serif;
+  font-weight: 600;
+}
+.site-brand #brand-results a:hover {
+  background-color: #fafafa;
+}
+.site-brand #brand-results a:last-child {
+  border: none;
+}
+.site-brand .widget_categories h2 {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #4b2e83;
+  margin: 0;
+}
+.site-brand .widget_categories ul {
+  padding: 0;
+  list-style: none;
+}
+.site-brand .widget_categories a {
+  color: #484848;
+  background-color: #F1F1F1;
+  display: block;
+  border-bottom: 1px solid #fff;
+  padding: 10px 20px;
+  font-family: "Encode Sans Compressed", sans-serif;
+  font-size: 20px;
+}
+.site-brand .widget_categories a:hover {
+  background-color: #ddd;
+}
+.site-brand .box-outer.colors .box {
+  margin: 0;
+}
+.site-brand .box-outer.colors .box h3 {
+  position: relative;
+  padding-bottom: 20px;
+}
+.site-brand .box-outer.colors .box h3:after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  bottom: 3px;
+}
+.site-brand .box-outer.colors .box span {
+  position: relative;
+  padding-left: 36px;
+}
+.site-brand .box-outer.colors .box span:before {
+  content: "";
+  height: 25px;
+  width: 25px;
+  background-color: #e8e3d3;
+  position: absolute;
+  left: 2px;
+  top: -1px;
+  display: block;
+}
+.site-brand .tile.light h3,
+.site-brand .tile.light p {
+  color: black;
+}
+.site-brand .tile.light h3:after {
+  background-color: #000000;
+}
+.site-brand .tile.dark h3,
+.site-brand .tile.dark p {
+  color: white;
+}
+.site-brand .tile.dark h3:after {
+  background-color: white;
+}
+.site-brand .color-purple {
+  background-color: #4b2e83;
+}
+.site-brand .color-purple h3,
+.site-brand .color-purple p {
+  color: white;
+}
+.site-brand .color-gold {
+  background-color: #85754d;
+}
+.site-brand .color-gold-light {
+  background-color: #b7a57a;
+}
+.site-brand .color-light-gray {
+  background-color: #d9d9d9;
+}
+.site-brand .color-gray {
+  background-color: #444444;
+}
+.site-brand .color-white {
+  background-color: white;
+  outline: 1px solid #ddd;
+}
+.site-brand .color-black {
+  background-color: black;
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  .site-brand.home .elment {
+    width: 100%;
+    padding: 40px;
+    float: none;
+    height: auto;
+  }
+  .site-brand.home .elment a {
+    margin: 0;
+    padding: 100px 0 35px;
+  }
+  .site-brand.home .uw-hero-image {
+    display: block;
+    height: auto;
+    padding: 90px 20px 50px;
+  }
+  .site-brand.home .uw-hero-image h1 {
+    font-size: 45px;
+  }
+  .site-brand.home .uw-body.container {
+    background-color: #e8e3d3;
+  }
+  .site-brand.home .uw-body-copy {
+    text-align: center;
+  }
+  .site-brand.home .uw-body-copy h2 {
+    position: static;
+    margin-left: 0;
+  }
+  .site-brand.home .search-box {
+    padding: 20px 0;
+  }
+  .site-brand.home .search-box #searchform #s {
+    padding: 15px 0 15px 15px;
+    height: 35px;
+    height: 51px;
+  }
+  .site-brand.home .search-box #searchform #searchsubmit {
+    height: 51px;
+    width: 51px;
+    -webkit-background-size: 20px;
+    -moz-background-size: 20px;
+    -o-background-size: 20px;
+    background-size: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  .site-brand.home .box-outer.colors .box.two .tile,
+  .site-brand.home .box-outer.colors .box.one .tile {
+    padding-top: 1px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .site-brand.home .uw-body.container {
+    background-color: transparent;
+  }
+  .site-brand.home .elment {
+    width: 46%;
+    margin: 37px 2% -15px 2%;
+  }
+  .site-brand.home .uw-content {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .site-brand.home .uw-body-copy h2:after,
+  .site-brand.home .uw-body-copy h2:before {
+    position: absolute;
+    top: 20px;
+    height: 1px;
+    width: 375px;
+    content: "";
+    background-color: white;
+  }
+  .site-brand.home .uw-body-copy h2:after {
+    right: 160px;
+  }
+  .site-brand.home .uw-body-copy h2:before {
+    left: 160px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .site-brand.home .uw-hero-image p {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  .site-brand.home .uw-hero-image p {
+    width: 70%;
+  }
+  .site-brand.home .uw-body-copy h2:after,
+  .site-brand.home .uw-body-copy h2:before {
+    width: 468px;
+  }
+}
+@media print {
+  #categories-2 {
+    display: none;
+  }
+}
