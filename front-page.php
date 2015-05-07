@@ -5,7 +5,11 @@
   <div class="uw-hero-image" <?php if ( has_post_thumbnail() ) : ?>style="background-image: url( <?php uw_thumbnail_url(); ?>)" <?php endif; ?> >
 
   <div class="container">
-    <?php the_content() ?>
+    <h1><?php the_title();?></h1>
+    <div class="udub-slant"></div>
+    <p>
+    <?php echo apply_filters('the_content', $post->post_excerpt); ?>
+    </p>
   </div>
 
   </div>
@@ -28,33 +32,15 @@
           <h2>Resources</h2>
 
             <?php
-            $category_ids = array(3, 9, 23, 24, 18, 13, 12, 4); //change these as needed
-            foreach ($category_ids as $term_id ) :
-              $category = get_category($term_id);
-              if (!empty($category)):
+            $page_slugs = array('logos', 'colors', 'fonts', 'downloads'); //insert page slugs
+            foreach ($page_slugs as $slug ) :
+              $page = get_page_by_path($slug);
+              if (!empty($page)):
               ?>
-              <div class="elment <?php if ($category->category_count == '0') { ?>empty <?php } ?>element-<?php echo $category->category_nicename ?>">
-                <a href="<?php echo get_category_link( $term_id ) ?>" title="<?php echo esc_attr($category->name) ?>">
-                  <?php echo $category->name ?>
-                  <p><?php echo $category->category_description; ?></p>
-                </a>
-              </div>
-
-
-              <?php
-              endif;
-            endforeach;
-
-            //following is for non-featured categories that need to be exposed
-            $id_string = implode(',', $category_ids);
-            $categories_more = get_categories( array( 'hide_empty' => false , 'exclude' => $id_string ) ) ;
-            foreach ($categories_more as $category ) :
-              if (!empty($category)):
-              ?>
-              <div class="elment hidden <?php if ($category->category_count == '0') { ?>empty <?php } ?>element-<?php echo $category->category_nicename ?>">
-                <a href="<?php echo get_category_link( $category->term_id ) ?>" title="<?php echo esc_attr($category->name) ?>">
-                  <?php echo $category->name ?>
-                  <p><?php echo $category->category_description; ?></p>
+              <div class="elment element-<?php echo $slug ?>">
+                <a href="<?php echo get_permalink($page->ID) ?>" title="<?php echo esc_attr($page->post_title) ?>">
+                  <?php echo $page->post_title ?>
+                  <p><?php echo get_post_meta($page->ID, 'preview', true) ?></p>
                 </a>
               </div>
 
@@ -67,14 +53,13 @@
         </div>
       </div>
     </div>
-    <div class='row'>
-      <div class='col-md-12 more'>
-        <a id='see_more' class="uw-btn btn-go btn-sm" href="#">See more</a>
-      </div>
+
+    <div id='home-content' class="row">
+      <?php the_content(); ?>
     </div>
 
   </div>
-
+  
 </div>
 
 <?php endwhile; ?>
