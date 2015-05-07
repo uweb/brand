@@ -71,6 +71,19 @@ Version: 1.1
   margin-left: -73px;
   z-index: 1;
 }
+.site-brand.home #home-content {
+  margin-top: 50px;
+}
+.site-brand.home #home-content h2 {
+  margin-left: 15px;
+}
+.site-brand.home #home-content h3 {
+  margin-top: 40px;
+  color: #4b2e83;
+}
+.site-brand.home #home-content ul {
+  list-style-type: none;
+}
 .site-brand.home .more {
   text-align: center;
 }
@@ -149,6 +162,9 @@ Version: 1.1
   background: url('assets/brand/svg/messaging.svg') center 29px no-repeat;
 }
 .site-brand .elment.element-downloads-templates a {
+  background: url('assets/brand/svg/downloads.svg') center 29px no-repeat;
+}
+.site-brand .elment.element-downloads a {
   background: url('assets/brand/svg/downloads.svg') center 29px no-repeat;
 }
 .site-brand .elment.element-graphic-elements a {
